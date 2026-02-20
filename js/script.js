@@ -29,7 +29,7 @@ const inst = Vue.createApp({
     },
     methods: {
         cargarMaquillaje() {
-            axios.get("http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline").then(respuesta => {
+            axios.get("https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline").then(respuesta => {
             //Agregue esta funcion con nuevas funciones para que mis imagenes se mostraran correctamente
             //Estas funciones arreglan los enlaces y ponen una imagen de repuesto si el link falla.
             //Ya que mi página se encontraba vacía (sin imagenes)
